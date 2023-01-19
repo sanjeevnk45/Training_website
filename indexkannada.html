@@ -1,0 +1,2080 @@
+<!DOCTYPE html>
+
+<html lang="kn">
+<meta charset="utf-8">
+
+<!--new  grid container final -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+ 
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+
+  color: white;
+}
+
+.column2 {
+  float: left;
+  width: 24%;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+
+  color: white;
+}
+.column1 {
+  float: left;
+  width: 750px;
+
+  padding:15px;
+  text-align: center;
+ 
+  
+  color: white;
+}
+.containerTab {
+  padding: 10px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+<!--new grid container final end -->
+
+<!-- image slide show -->
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 720px;
+
+  position: relative;
+
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 14px 5px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 2s ease;
+}
+
+.active {
+
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 7s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 100px) {
+  .text {font-size: 11px}
+}
+</style>
+
+
+<!-- counter code-->
+
+
+
+<style>
+.counter
+{
+   
+    text-align: center;
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.counter-count
+{
+    font-size: 14px;
+   
+    border-radius: 50%;
+    position: relative;
+    color: red;
+    text-align: center;
+    line-height: 30px;
+    width: 50px;
+    height: 30px;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 12px;
+    color: black;
+    line-height: 5px;
+}
+
+
+
+</style>
+<!-- text animation -->
+<style>
+
+
+h8 {
+    text-align: center;
+}
+
+h8 {
+     font: bold 25px sans-serif;
+    text-shadow: 2px 2px 4px #222;    
+    -webkit-animation: test 2s infinite; /* Chrome, Safari, Opera */
+    animation: test 2s infinite;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes test {
+    50% {text-shadow: 6px 6px 12px #000;}
+}
+/* Standard syntax */
+@keyframes test {
+    50% {text-shadow: 6px 6px 12px #000;}
+}
+
+</style>
+
+
+
+<script src="jquery-1.11.1.min.js"></script>
+
+<style>
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
+kan { 
+font-family: "Noto Sans Kannada", sans-serif; 
+font-size: 16.0px; 
+line-height: 1.11em; 
+}
+</style>
+
+
+<head>
+
+<!-- bottom nav bar-->
+    <link rel="stylesheet" href="css/bottomnav.css">
+
+	
+<!--new  grid container final -->
+<!------ bottom logo carousel-->  
+<link rel="stylesheet" href="https://karnataka.gov.in/frontend/opt1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://karnataka.gov.in/frontend/opt1/css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css/mainkannada.css">
+
+	<!------ bottom logo carousels  --> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body style="background-color:  #fff2cc;">
+
+ <div class="col-md-12 col-sm-12 col-xs-12 nav-left no-pad top-bg">
+                        <div class="info-menu"> 
+                            <ul>
+							 <li><a href="file:///D:/csje%20original%20website/indexenglish.html" class="font_text lang">English</a></li>
+							 <li class=" tooltip1 font_text lang hidden-sm hidden-xs" style="margin-left: 5px;">ಫಾಂಟ್ &nbsp;<i class="fa fa-download" aria-hidden="true"></i>
+
+                                    <div class="tooltiptext">
+                                <table class="table table-bordered table-striped download-table" >
+                                    <tbody>
+                                       <tr>
+                                          <th>#</th>
+                                          <th>File name</th>
+                                          <th>Size</th>
+                                          <th>Download</th>
+                                       </tr>
+                                       <tr>
+                                          <td>1</td> 
+                                          <td><kan>ನಿರ್ಮಲಾ ಫಾಂಟ್</kan></td>
+                                          <td>145.2KB</td>
+                                          <td><a href=" https://karnataka.gov.in/frontend/assets/fonts/Nirmala.ttf" download="Nirmala.ttf"><i class="fa fa-download" aria-hidden="true" title="Download Font" style="color: #000;"></i></a></td>
+                                       </tr>
+                                       <tr>
+                                          <td>2</td>
+                                          <td><kan>ತುಂಗಾ ಫಾಂಟ್</kan></td>
+                                          <td>514B</td>
+
+                                          <td><a href="http://localhost:81/larcms/public/frontend/opt1/fonts/tunga.ttf" download="Nirmala.ttf" ><i class="fa fa-download" aria-hidden="true" title="Download Font" style="color: #000;"></i></a></td>
+                                       </tr>
+                                    </tbody></table>
+                             </div>
+
+                                </li>
+                               
+                               
+                            </ul>
+                            
+                        </div>
+                    </div>
+					<br>
+					<br>
+<center>
+<img src="images/kannada1.png"width="600" height="130" >
+
+ </center>
+ <div class="container-fluid">
+            <div class="navbar-header">
+			
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+	
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ನಮ್ಮ ಬಗ್ಗೆ  </kan><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="kopie"><a href="kannada/about.html"><center><kan>ಕೇಂದ್ರದ ಬಗ್ಗೆ</kan></center></a></li>
+                             
+                            
+                           
+                                                          
+                        </ul>
+                    </li>
+				
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ಕೇಂದ್ರದ ರಚನೆ</kan> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                             <li class="kopie"><a href="kannada/staffs.html"><kan>ಬೋಧಕರು ಮತ್ತು ಸಿಬ್ಬಂದಿ ವರ್ಗ</kan></a></li>
+                            <li><a href="kannada/Advisorycommittee.html"><kan>ಸಲಹಾ ಸಮಿತಿ</kan></a></li>
+                            <li><a href="#"><kan>ಕೇಂದ್ರದ ಸಾಂಸ್ಥಿಕ ರಚನೆ </kan></a></li>
+                                   
+                        </ul>
+                    </li>
+					<!--
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ತರಬೇತಿ  <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                             <li class="kopie"><a href="#">ತರಬೇತಿ ಉದ್ದೇಶಗಳು</a></li>
+                            <li><a href="#">ತರಬೇತಿ ವಿಧಾನ</a></li>
+                            <li><a href="kannada/calender/examples/background-events.html">ತರಬೇತಿ ಕ್ಯಾಲೆಂಡರ್</a></li>
+                           
+                             <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ರಾಜ್ಯ ಮಟ್ಟದ ತರಬೇತಿ</a>
+								<ul class="dropdown-menu">
+                                   
+									<li class="kopie"><a href="kannada/stateleveltraining.html">2019</a></li>
+									<li><a href="#" class="dropdown-toggle" data-toggle="dropdown">2020</a></li>	
+									</li> 
+									</ul>
+									<li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ಜಿಲ್ಲಾ ಮಟ್ಟದ ತರಬೇತಿ</a>
+										<ul class="dropdown-menu">
+                                            <li class="kopie"><a href="kannada/dtileveltraining.html">2019</a></li>
+											<li><a href="#">2020</a></li>
+											<li><a href="#"></a></li>
+											
+										</ul>
+									</li>  									
+							
+								</ul>
+	                           
+                      
+                   </li>
+				   <!---------Training-------------->
+				   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ತರಬೇತಿ</kan> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="kopie"><a href=""><kan>ತರಬೇತಿ ಉದ್ದೇಶಗಳು</kan></a></li>
+                            <li><a href="#"><kan>ತರಬೇತಿ ವಿಧಾನ</kan></a></li>
+							 <li><a href="#"><kan>ಮಾಡ್ಯೂಲ್</kan></a></li>
+							
+                             <li><a href="#"><kan>ತರಬೇತಿ ಕ್ಯಾಲೆಂಡರ್</kan></a></li>
+                           
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ತರಬೇತಿ ಕಾರ್ಯಕ್ರಮಗಳು</kan></a>
+								<ul class="dropdown-menu">
+                                   
+									<li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ರಾಜ್ಯ ಮಟ್ಟದ ತರಬೇತಿ</kan></a>
+										<ul class="dropdown-menu">
+                                            <li class="kopie"><a href="kannada/stateleveltraining.html">2019-2020</a></li>
+											<li><a href="#">2020-2021</a></li>
+										<li><a href="#">2021-2022</a></li>
+											<li><a href="#">2022-2023</a></li>
+											<li><a href="#">2023-2024</a></li>
+										</ul>
+									</li> 
+									<li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ಜಿಲ್ಲಾ ಮಟ್ಟದ ತರಬೇತಿ</kan></a>
+										<ul class="dropdown-menu">
+                                            <li class="kopie"><a href="kannada/dtileveltraining.html">2019-2020</a></li>
+											<li><a href="#">2020-2021</a></li>
+										<li><a href="#">2021-2022</a></li>
+											<li><a href="#">2022-2023</a></li>
+											<li><a href="#">2023-2024</a></li>
+										
+										</ul>
+									</li>  									
+							
+								</ul>
+							</li>                                  
+                        </ul>
+                    </li>
+					
+					<!-- dcoumentation -->
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ಡಾಕ್ಯೂಮೆಂಟೇಶನ್</kan> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                              <li class="kopie"><a href="#"><kan>ಕ್ರಿಯಾ ಸಂಶೋಧನೆ</kan></a></li>
+                            <li><a href="#"><kan>ಪ್ರಕರಣದ ಅಧ್ಯಯನ</kan></a></li>
+							<li><a href="#"><kan>ಲೇಖನಗಳು</kan></a></li>
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ವಾರ್ಷಿಕ ವರದಿ</kan></a>
+								<ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">2019</a></li>
+									<li><a href="#">2020</a></li>
+								</ul>
+							</li>
+							<!--
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 5</a>
+								<ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">Dropdown Link 5</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.1</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.2</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.3</a></li>
+									<li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Submenu Link 5.4</a>
+										<ul class="dropdown-menu">
+                                            <li class="kopie"><a href="#">Dropdown2 Submenu Link 5.4</a></li>
+											<li><a href="#">Dropdown2 Submenu Link 5.4.1</a></li>
+											<li><a href="#">Dropdown2 Submenu Link 5.4.2</a></li>
+											
+										</ul>
+									</li>                                  
+								</ul>
+							</li>   
+								-->							
+                        </ul>
+                    </li>
+<!-- e-source -->
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ಇ-ಸಂಪನ್ಮೂಲಗಳು </kan><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li class="kopie"><a href="#"><kan>ಕಾಯಿದೆಗಳು ಮತ್ತು ನೀತಿಗಳು</kan></a></li>
+                            <li><a href="#"><kan>ನಿಯತಕಾಲಿಕಗಳು</kan></a></li>
+							 <li><a href="#"><kan>ಇತ್ತೀಚಿನ ಸುತ್ತೋಲೆ</kan></a></li>
+						
+                           <li><a href="New folder/Digital magazine/Dr.B.R.Ambedkar.html"><kan>ಡಾ. ಬಿ.ಆರ್.ಅಂಬೇಡ್ಕರ್ <br>ಡಿಜಿಟಲ್ ಮ್ಯಾಗಜೀನ್</kan></a></li>
+                            
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ವಾರ್ತ ಪತ್ರ</kan></a>
+								<ul class="dropdown-menu">
+                                    <li class="kopie"><a href="documents/1stnewsletter.html"><kan>ವಾರ್ತ ಪತ್ರ  ಸಂಚಿಕೆ-1</kan></a></li>
+									<li><a href="documents/News Letter 2nd Edtition.pdf"><kan>ವಾರ್ತ ಪತ್ರ  ಸಂಚಿಕೆ-2</kan></a></li>  
+								</ul>
+							</li>
+						<!--
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 5</a>
+								<ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">Dropdown Link 5</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.1</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.2</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.3</a></li>
+									<li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Submenu Link 5.4</a>
+										<ul class="dropdown-menu">
+                                            <li class="kopie"><a href="#">Dropdown2 Submenu Link 5.4</a></li>
+											<li><a href="#">Dropdown2 Submenu Link 5.4.1</a></li>
+											<li><a href="#">Dropdown2 Submenu Link 5.4.2</a></li>
+											
+										</ul>
+									</li>   
+                               
+								</ul>
+							</li>   
+-->							
+                        </ul>
+                    </li>
+<!-- e-source end -->		
+																					<!-- manthana -->			
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ಮಂಥನ</kan> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                         <li class="kopie"><a href="kannada/Video.html"><kan>ವಿಡಿಯೋ</kan></a></li>
+							<!--
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 4</a>
+								<ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">Dropdown2 Link 4</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 4.1</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 4.2</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 4.3</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 4.4</a></li>
+                                   
+								</ul>
+							</li>
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 5</a>
+								<ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">Dropdown Link 5</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.1</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.2</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.3</a></li>
+									<li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Submenu Link 5.4</a>
+										<ul class="dropdown-menu">
+                                            <li class="kopie"><a href="#">Dropdown2 Submenu Link 5.4</a></li>
+											<li><a href="#">Dropdown2 Submenu Link 5.4.1</a></li>
+											<li><a href="#">Dropdown2 Submenu Link 5.4.2</a></li>
+											
+										</ul>
+									</li>                                  
+								</ul>
+							</li>    
+									-->
+                        </ul>
+                    </li>
+					<!-- photo gallery -->
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ಫೋಟೋ ಗ್ಯಾಲರಿ </kan><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="kopie"><a href="kannada/Gallary.html">2019-2020 </a></li>
+                            <li><a href="#">2020-2021 </a></li>
+							 <li><a href="#">2021-2022 </a></li>
+							 <li><a href="#">2022-2023 </a></li>
+							 <li><a href="#">2023-2024 </a></li>
+							<!--
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 4</a>
+								<ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">Dropdown2 Link 4</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 4.1</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 4.2</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 4.3</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 4.4</a></li>
+                                   
+								</ul>
+							</li>
+                            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown2 Link 5</a>
+								<ul class="dropdown-menu">
+                                    <li class="kopie"><a href="#">Dropdown Link 5</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.1</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.2</a></li>
+									<li><a href="#">Dropdown2 Submenu Link 5.3</a></li>
+									<li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Submenu Link 5.4</a>
+										<ul class="dropdown-menu">
+                                            <li class="kopie"><a href="#">Dropdown2 Submenu Link 5.4</a></li>
+											<li><a href="#">Dropdown2 Submenu Link 5.4.1</a></li>
+											<li><a href="#">Dropdown2 Submenu Link 5.4.2</a></li>
+											
+										</ul>
+									</li>                                  
+								</ul>
+							</li>     
+-->							
+                        </ul>
+                    </li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ಸಂಪರ್ಕಿಸಿ</kan><b class="caret"></b></a>
+                    	<ul class="dropdown-menu">
+                         <li class="kopie"><a href="kannada/contactus.html"><kan>ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</kan></a></li>
+						</ul>
+						</li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ನೋಂದಾಯಿಸಿ</kan><b class="caret"></b></a>
+                    		<ul class="dropdown-menu">
+                            <li class="kopie"><a href="kannada/feedback.html"><kan>ತರಬೇತಿಗಾಗಿ ನೋಂದಾಯಿಸಿ</kan></a></li>
+						</ul>
+						</li>
+		<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><kan>ಮೌಲ್ಯಮಾಪನ </kan><b class="caret"></b></a>
+                    		<ul class="dropdown-menu">
+							 <li class="kopie"><a href="https://docs.google.com/forms/d/e/1FAIpQLSceExdNHo9aZhK4dw4F8pqRZuzvWxKg2FGavXIV_vkVJ3jigA/viewform?usp=sf_link" target="_blank"><kan>ತರಬೇತಿ ಮೌಲ್ಯಮಾಪನ</kan></a></li>
+                            
+						</ul>
+						</li>
+		
+		
+		
+		
+		
+		
+                </ul>
+	
+							
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+					
+            </div><!-- /.navbar-collapse -->
+        
+		
+</div>
+ </div>
+<!-- new grid final -->
+<div class="row">
+ <div class="column"  style="background:#b8b894;height:515px;">
+  <a href="kannada/dgmessage.html"> <h1 style="font-size:11pt;color:black;"><kan><b>ಮಹಾ ನಿರ್ದೇಶಕರ ಸಂದೇಶ</b></kan></h1></a>
+ <center>
+ <img src="images/ndeg.jpg" style="width:50%;height:120px" >
+ </center>
+<h1 style="font-size:10pt;color:#4d4dff"><p><strong><kan style="font-size:18px;">&nbsp;&nbsp;ವಿ. ಮಂಜುಲ,</kan> </strong><small style="color:#4d4dff;"><kan style="font-size:10px;">ಭಾ.ಆ.ಸೇ</kan></small><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kan>ಮಹಾ ನಿರ್ದೇಶಕರು </kan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></h1>
+<a href="kannada/jdmessage.html"> <h1 style="font-size:12pt;color:black;"><kan><b>ಜಂಟಿ ನಿರ್ದೇಶಕರ ಸಂದೇಶ</b></kan></h1></a>
+ <img src="images/jd.jpeg"  style="width:50%;height:120px">
+<h1 style="font-size:10pt;color:#4d4dff"><p><strong><kan style="font-size:18px;">ವಿ. ಭಾಗ್ಯಲಕ್ಷ್ಮಿ</kan></strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kan>ಜಂಟಿ ನಿರ್ದೇಶಕರು</kan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></h1>
+ 
+  </div>
+  <div class="column1"  style="#0000ffff;">
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 /41</div>
+  <img src="images/ati/ATI.jpg" style="width:100%;height:490px">
+  <div class="text">ATI</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 /41</div>
+  <img src="images/ati/1photo.jpg" style="width:100%;height:490px">
+  <div class="text">DTI1</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 /41</div>
+ <img src="images/ati/2ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI2</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 /41</div>
+ <img src="images/ati/2photo.jpg" style="width:100%;height:490px">
+  <div class="text">DTI2</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 /41</div>
+ <img src="images/ati/3ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6 /41</div>
+  <img src="images/ati/48photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7 /41</div>
+ <img src="images/ati/6ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8 /41</div>
+  <img src="images/ati/4photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">9 /41</div>
+ <img src="images/ati/5ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">10 /41</div>
+  <img src="images/ati/5photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">11 /41</div>
+ <img src="images/ati/3photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">12 /41</div>
+  <img src="images/ati/54photo.jpeg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">13 /41</div>
+ <img src="images/ati/7ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">14 /41</div>
+  <img src="images/ati/7photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">15 /41</div>
+ <img src="images/ati/8ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">16 /41</div>
+  <img src="images/ati/8photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">17 /41</div>
+ <img src="images/ati/9ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">18 /41</div>
+  <img src="images/ati/33ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">19 /41</div>
+ <img src="images/ati/10ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">20 /41</div>
+  <img src="images/ati/10photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">21 /41</div>
+ <img src="images/ati/11ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">22 /41</div>
+  <img src="images/ati/11photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">23 /41</div>
+ <img src="images/ati/12ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">24 / 41</div>
+  <img src="images/ati/12photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">25 / 41</div>
+ <img src="images/ati/13ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">26 / 41</div>
+  <img src="images/ati/24photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">27 / 41</div>
+ <img src="images/ati/14ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">28 / 41</div>
+  <img src="images/ati/14photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">29 / 41</div>
+ <img src="images/ati/15ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">30 / 41</div>
+  <img src="images/ati/15photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">31 / 41</div>
+ <img src="images/ati/16ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">32 / 41</div>
+  <img src="images/ati/16photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">33 /41</div>
+ <img src="images/ati/17ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">35 / 41</div>
+  <img src="images/ati/17photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">36 / 41</div>
+ <img src="images/ati/18ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">37 / 41</div>
+  <img src="images/ati/18photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">38 / 41</div>
+ <img src="images/ati/19ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">39 / 41</div>
+  <img src="images/ati/19photo.jepg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">40 / 41</div>
+ <img src="images/ati/20ati.jpg" style="width:100%;height:490px">
+  <div class="text">ATI3</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">41 / 41</div>
+  <img src="images/ati/20photo.jpg" style="width:100%;height:490px">
+  <div class="text">ATI1</div>
+</div>
+
+
+
+
+
+
+</div>
+
+  <div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+	 <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+	 <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+	 <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span>
+ <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+ <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+	<span class="dot"></span> 
+    <span class="dot"></span> 
+</div>
+  </div>
+  <div class="column2"  style="background:#b8b894;height:515px;">
+  <b><h6 style="font-size:12pt; color:black;">&nbsp;<kan>ಮುಂಬರುವ ಚಟುವಟಿಕೆಗಳು</kan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></h6>
+  
+  <marquee direction = "up" scrollamount="3"><center>
+  
+ <h6 style="font-size:10pt; color:black;"><kan>EnAble India ಸಹಭಾಗಿತ್ವದಲ್ಲಿ  ದಿನಾಂಕ : 10/06/2020 ಬೆಳಿಗ್ಗೆ 11:00 ರಿಂದ  1:00 ಗಂಟೆವರೆಗೆ RPD Act ಕುರಿತಾದ ವೆಬಿನಾರ್ ಸಂವಾದವನ್ನು ಆಯೋಜಿಸಲಾಗಿದೆ    </kan><img src="images/new0.gif"><h6>
+
+<kan style="color:red;"></kan>
+<br>
+ </h6>
+<br><br><br><br><br>
+</center></marquee>
+<br>
+<h6 style="font-size:12pt; color:black;"><kan>ಮುಂಬರುವ ತರಬೇತಿ ಕಾರ್ಯಕ್ರಮಗಳು</kan>     </h6>
+<marquee direction = "up" scrollamount="3">
+<h1 style="font-size:10pt; color:red;"><kan>ಸಾಮಾಜಿಕ ನ್ಯಾಯ ಮತ್ತು ಸಮಾನತೆ ಕುರಿತು 3 ದಿನದ ತರಬೇತಿ ಕಾರ್ಯಕ್ರಮ  </kan> <img src="images/new0.gif"> </h1>
+
+<br><br><br><br><br><br>
+</marquee>
+  </div>
+</div>
+<!-- image slide show script-->
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 7000); // Change image every 2 seconds
+}
+</script>
+<!-- image slide show end-->
+
+<!-- counter -->
+  <div class="counter">
+    <div class="container">
+	<center>
+		<h8><h1 style="color:black;font-size:18pt;"><b><kan style="font-size:25px;">ರಾಜ್ಯ ಮಟ್ಟದ ತರಬೇತಿ ಕಾರ್ಯಕ್ರಮಗಳ ಅಂಕಿಅಂಶಗಳು</kan></b></h1></h8>
+        <div class="row">
+	
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="employees">
+			
+                    <p class="counter-count"><b>21</b></p>
+                    <p class="employee-p"><kan>2019-20ನೇ ವರ್ಷದಲ್ಲಿ ಒಟ್ಟು ತರಬೇತಿಗಳು</kan></p>
+					
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="customer">
+
+                    <p class="counter-count"><b>19</b></p>
+                    <p class="customer-p"><kan>ನಡೆಸಲಾದ ಒಟ್ಟು ತರಬೇತಿಗಳು</kan></p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="design">
+		
+                    <p class="counter-count"><b>404</b></p>
+                    <p class="design-p"><kan>ತರಬೇತಿ ಪಡೆದ ಒಟ್ಟು ಅಧಿಕಾರಿಗಳು</kan></p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="order">
+		
+                    <p class="counter-count">---</p>
+                    <p class="order-p"><kan>2020-21ರಲ್ಲಿ ನಡೆಸಬೆಕಾದ ತರಬೇತಿಗಳು</kan></p>
+                </div>
+            </div><br>
+			 </div>
+	<h8><h1 style="color:black;font-size:18pt;"><b><kan style="font-size:25px;">ಜಿಲ್ಲಾ ಮಟ್ಟದ ತರಬೇತಿ ಕಾರ್ಯಕ್ರಮಗಳ ಅಂಕಿಅಂಶಗಳು</kan></b></h1></h8>
+	<div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="employees">
+			     <p class="counter-count"><b>48</b></p>
+                    <p class="employee-p"><kan>2019-20ನೇ ವರ್ಷದಲ್ಲಿ ಒಟ್ಟು ತರಬೇತಿಗಳು</kan></p>
+					
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+			
+                <div class="customer">
+
+                    <p class="counter-count"><b>40</b></p>
+                    <p class="customer-p"><kan>ನಡೆಸಲಾದ ಒಟ್ಟು ತರಬೇತಿಗಳು</kan></p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="design">
+		
+                    <p class="counter-count"><b>1565</b></p>
+                    <p class="design-p"><kan>ತರಬೇತಿ ಪಡೆದ ಒಟ್ಟು ಅಧಿಕಾರಿಗಳು</kan></p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="order">
+		
+                    <p class="counter-count">---</p>
+                    <p class="order-p"><kan>2020-21ರಲ್ಲಿ ನಡೆಸಬೆಕಾದ ತರಬೇತಿಗಳು</kan></p>
+                </div>
+            </div>
+       </div>
+		</center>
+    </div>
+</div>
+ 
+ 
+ <br> 
+
+    <div class="wrapper">
+<div class="pn-ProductNav_Wrapper" >
+<nav id="pnProductNav" class="pn-ProductNav">
+<div id="pnProductNavContents" class="pn-ProductNav_Contents"   >
+
+<a  href="https://karnataka.gov.in/gokdirectory/kn" class="pn-ProductNav_Link cd" aria-selected="true" title="ಸರ್ಕಾರದ ಸಂಪರ್ಕ ಕೈಪಿಡಿ" style="background-color: #d42929;"> <kan>ಸರ್ಕಾರದ ಸಂಪರ್ಕ ಕೈಪಿಡಿ </kan></a>
+
+
+    <a href="#tab1" aria-controls="tab1"  class="pn-ProductNav_Link " data-toggle="tab" title="ಮಹತ್ವದ ಜಾಲತಾಣಗಳು"><kan>ಮಹತ್ವದ ಜಾಲತಾಣಗಳು</kan></a>
+    <a href="#tab2" aria-controls="tab2"  class="pn-ProductNav_Link" data-toggle="tab" title="ಇ ಆಡಳಿತ ಜಾಲತಾಣ "><kan>ಇ ಆಡಳಿತ ಜಾಲತಾಣ </kan> </a>
+     <a href="#tab20" aria-controls="tab2"  class="pn-ProductNav_Link" data-toggle="tab" title="ಇ-ಸೇವೆಗಳು "><kan>ಇ-ಸೇವೆಗಳು </kan>  </a>
+    <a href="#tab3" aria-controls="tab3"  class="pn-ProductNav_Link" data-toggle="tab" title=" ಸಾಮಾನ್ಯ ಅಂಕಿ ಅಂಶ  "><kan> ಸಾಮಾನ್ಯ ಅಂಕಿ ಅಂಶ </kan></a>
+    <a href="#tab4" aria-controls="tab4"  class="pn-ProductNav_Link" data-toggle="tab" title="ಸರ್ಕಾರದ ಆ್ಯಪ್ ಗಳು "> <kan>ಸರ್ಕಾರದ ಆ್ಯಪ್ ಗಳು</kan></a>
+    <a href="#tab5" aria-controls="tab5"  class="pn-ProductNav_Link" data-toggle="tab" title="ಕೇಂದ್ರ ಸರ್ಕಾರದ  ಮಹತ್ವದ ಜಾಲತಾಣಗಳು " style="padding-top: 7px;"><kan>ಕೇಂದ್ರ ಸರ್ಕಾರದ <br>ಮಹತ್ವದ ಜಾಲತಾಣಗಳು</kan></a>
+    <a href="#tab6" aria-controls="tab6"  class="pn-ProductNav_Link" data-toggle="tab" title="ತಾಂತ್ರಿಕ‌ ಜಾಲತಾಣಗಳು "><kan>ತಾಂತ್ರಿಕ‌ ಜಾಲತಾಣಗಳು</kan></a>
+    <a href="#tab7" aria-controls="tab7"  class="pn-ProductNav_Link" data-toggle="tab" title="ಕನ್ನಡ ಸಂಬಂಧಿ ಜಾಲತಾಣಗಳು " style="padding-top: 7px;"><kan>ಕನ್ನಡ ಸಂಬಂಧಿ <br>ಜಾಲತಾಣಗಳು</kan></a>
+    <a href="#tab9" aria-controls="tab9"  class="pn-ProductNav_Link" data-toggle="tab" title="ಆಯೋಗಗಳು "><kan>ಆಯೋಗಗಳು </kan></a>
+    <a href="#tab10" aria-controls="tab10"  class="pn-ProductNav_Link" data-toggle="tab" title="ನ್ಯಾಯಾಲಯಗಳು "><kan>ನ್ಯಾಯಾಲಯಗಳು </kan></a>
+    <a href="#tab8" aria-controls="tab8"  class="pn-ProductNav_Link" data-toggle="tab" title="ಡೌನ್‌ಲೋಡ್‌ಗಳು "><kan>ಡೌನ್‌ಲೋಡ್‌ಗಳು</kan> </a>
+      <a href="https://kstdc.co" target="_blank" class=" pn-ProductNav_Link cd"  title="ಸಾರ್ವತ್ರಿಕ ರಜೆಗಳು"><kan>ಪ್ರವಾಸಿ</kan></a>
+      <a href="https://mybmtc.karnataka.gov.in/includes/karnataka_govt_holiday_list_kn.pdf" target="_blank" class=" pn-ProductNav_Link cd"  title="ಸಾರ್ವತ್ರಿಕ ರಜೆಗಳು"><kan>ಸಾರ್ವತ್ರಿಕ ರಜೆಗಳು</kan></a>
+
+	<span id="pnIndicator" class="pn-ProductNav_Indicator"></span>
+    </div>
+</nav>
+	<button id="pnAdvancerLeft" class="pn-Advancer pn-Advancer_Left" type="button">
+		<i class="fa fa-chevron-left"></i>
+	</button>
+	<button id="pnAdvancerRight" class="pn-Advancer pn-Advancer_Right" type="button">
+		<i class="fa fa-chevron-right"></i>
+	</button>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+
+<div class="tab-content"> 
+									
+								
+									
+									
+<div role="tabpanel" class="tab-pane active" id="tab1">       
+<div class="col-md-12">
+<div class="carousel-wrap">
+<div class="owl-carousel owl-one">
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://www.kla.kar.nic.in/assembly/assembly.htm"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ " target="_blank"><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/vidan_sabhe.png">
+<div class="quilcklinks_outer">
+<h2><kan>ವಿಧಾನಸಭೆ</></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://www.kla.kar.nic.in/council/council.htm"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ " target="_blank"><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/vidan_parishat.png">
+<div class="quilcklinks_outer">
+<h2><kan>ವಿಧಾನ ಪರಿಷತ್ತು </kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://rajbhavan.kar.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/karnataka_rajbhavan.png">
+<div class="quilcklinks_outer">
+<h2><kan>ರಾಜ್ಯಪಾಲರ ಕಚೇರಿ</kan></h2>
+<p></p>
+</div> 
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://www.cmkarnataka.gov.in/"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ " target="_blank"><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/vidan_souda.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಮುಖ್ಯಮಂತ್ರಿ ಕಚೇರಿ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://karunadu.karnataka.gov.in/English/Pages/chief-secy.aspx" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/vidan_souda.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಮುಖ್ಯ ಕಾರ್ಯದರ್ಶಿ ಕಚೇರಿ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://karunadu.karnataka.gov.in/Pages/k-departments.aspx" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/webdirectory.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಸರ್ಕಾರದ ವೆಬ್ ಡೈರೆಕ್ಟರಿ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>			  
+</div>
+
+<div role="tabpanel" class="tab-pane" id="tab2">      
+
+<div class="col-md-12">
+
+<div class="carousel-wrap">
+<div class="owl-carousel owl-two">
+
+<div class="item cards__card">
+<div >
+<a href="https://dpar.karnataka.gov.in/kannada/pages/home.aspx" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/dpar.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಸಿ. ಆ.ಸು‌.ಇಲಾಖೆ(ಇ-ಆಡಳಿತ)</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://www.ceg.karnataka.gov.in" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/ceg.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ-ಆಡಳಿತ ಕೇಂದ್ರ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://eproc.karnataka.gov.in/eprocportal/pages/index.jsp" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/esangraha.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ-ಸಂಗ್ರಹ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://hrms.karnataka.gov.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/hrms.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಹೆಚ್.ಅರ್.ಎಂ.ಎಸ್.</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://karunadu.karnataka.gov.in/ksdc/pages/home.aspx" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/sdc.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕೆ.ಎಸ್.ಡಿ.ಸಿ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://karunadu.karnataka.gov.in/KSWAN/pages/home.aspx" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/kswan.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕೆ-ಸ್ವಾನ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://ceg.karnataka.gov.in/aadhaar/public" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/adhaar.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಆಧಾರ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://ceg.karnataka.gov.in/aadhaar/public"  target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/krdh.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕೆ.ಅರ್.ಡಿ.ಹೆಚ್.</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card">
+<div >
+<a href="https://eoffice.karnataka.gov.in/cas/login?service=http%3A%2F%2Feoffice.karnataka.gov.in%2Flogin.php" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/eoffice.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ-ಆಫೀಸ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+<div role="tabpanel" class="tab-pane" id="tab3">      
+
+<div class="col-md-12">
+
+<div class="carousel-wrap">
+<div class="owl-carousel owl-three">
+<div class="item cards__card">
+<div >
+<a href="https://epragati-wcdodisha.gov.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/e-samikshaaa.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ-ಪ್ರಗತಿ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://etaal.gov.in/etaal2/auth/default.aspx" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/e_taal.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ-ತಾಲ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://data.gov.in/statedepartment/karnataka" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/data.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಡೇಟಾ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div >
+<a href="https://www.gazette.kar.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/gazette.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ  ಗೆಜೆಟಿಯರ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+
+<div class="item cards__card">
+<div >
+<a href="http://stgpratibimba.karnataka.gov.in/cmdbstg1/public/Gqn4HTInKDYJy2Zdf6gMVLNE4ACA2PgQ8or180KRtvFbpnwJcRF3c5uZs9fujaywEiX9EFQrStOo4QUShMfvYqBklNuWVpGLWGTLBojhzw6erxUCa8emXTmBJsc7PdOiOz75KUis1mkPtvWIXal5l1" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/pratibimba_cm_dashbaord.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಪ್ರತಿಬಿಂಬ </kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+									
+										
+<div role="tabpanel" class="tab-pane" id="tab4">
+<div class="col-md-12">
+<div class="carousel-wrap">
+<div class="owl-carousel owl-four">
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.imi.karnatakamobileone" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/mobile_one.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಮೊಬೈಲ್ ಒನ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.mybmtc" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/bmtc.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಬಿ.ಎಮ್.ಟಿ.ಸಿ.</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<!-- <div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.Bheema.Adcl" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/kalyan.png">
+<div class="quilcklinks_outer">
+<h2>ಕಲ್ಯಾಣ</h2>
+<p></p>
+</div>
+</a>
+</div>
+</div> -->
+
+
+
+
+<!-- <div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.chatra.findblood" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/blood.png">
+<div class="quilcklinks_outer">
+<h2>ಕರ್ನಾಟಕ ಬ್ಲಡ್ ಬ್ಯಾಂಕ್</h2>
+<p></p>
+</div>
+</a>
+</div>
+</div> -->
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=beco.bhkar.jn"  target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/bhoomi.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಭೂಮಿ​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.india.eservices.ka" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/all_ayoga.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ.ಸೇವಾಯ್ ಕರ್ನಾಟಕ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.ksrsac.sslr" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/kar_logo.png">
+<div class="quilcklinks_outer">
+<h2><kan>ದಿಶಾಂಕ​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=app.kgp.hyperbound" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/gram_panchayat.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಗ್ರಾಮ ಪಂಚಾಯತಿ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.ksrtc.awatar.new" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/ksrtc.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕೆ.ಎಸ್.ಆರ್.ಟಿ.ಸಿ.</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.capulustech.ksppqrs" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/karnataka_police.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ರಾಜ್ಯ ಪೊಲೀಸ್</kan>​</h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.csk.officerrubyapp.cropsurvey" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/bele_samikshe.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಬೆಳೆ ಸಮೀಕ್ಷೆ​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=naadaklacheri.nemmadi.app" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/nadakacheri.png">
+<div class="quilcklinks_outer">
+<h2><kan>ನಾಡ ಕಚೇರಿ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.ksrsac.stampsandregis" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="images/moulya.png" style="height:60px;width:60px;">
+<div class="quilcklinks_outer">
+<h2><kan>ಮೌಲ್ಯ​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=org.KarnatakaInformation" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/karnataka_varthe.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ವಾರ್ತೆ​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=gov.mea.psp" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/passport_seva.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಪಾಸ್ ಪೋರ್ಟ್ ಸೇವಾ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.digilocker.android" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/dg_locker.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಡಿಜಿ ಲಾಕರ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=in.gov.uidai.mAadhaarPlus" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/adhaar.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಆಧಾರ್</kan>​</h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>		
+
+<div role="tabpanel" class="tab-pane" id="tab5">
+<div class="col-md-12">
+<div class="carousel-wrap">
+<div class="owl-carousel owl-five">
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://loksabha.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/parliment_samsattu.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಸಂಸತ್ತು</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://presidentofindia.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/presidents_office.png">
+<div class="quilcklinks_outer">
+<h2><kan>ರಾಷ್ಟ್ರಪತಿ ಕಚೇರಿ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.pmindia.gov.in/en/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/prime_ministers.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಪ್ರಧಾನ ಮಂತ್ರಿ ಕಚೇರಿ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://portal2.passportindia.gov.in/AppOnlineProject/welcomeLink" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/passport_seva.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಪಾಸ್ಪೋರ್ಟ್ ಸೇವಾ </kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://uidai.gov.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/adhaar.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಯು.ಐ.ಡಿ.ಎ.ಐ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+
+</div>
+
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://karnatakabhavannewdelhi.karnataka.gov.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/karnataka_bhavan.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ಭವನ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+</div>
+</div>	
+
+
+<div role="tabpanel" class="tab-pane" id="tab6">
+<div class="col-md-12">
+<div class="carousel-wrap">
+<div class="owl-carousel owl-six">
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.cdac.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/cdac.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಸಿ-ಡ್ಯಾಕ್(CDAC)</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/nic.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಎನ್.ಐ.ಸಿ.(NIC)</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.stqc.gov.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/stqc.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಎಸ್.ಟಿ.ಕ್ಯೂ.ಸಿ.</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>	
+
+
+<div role="tabpanel" class="tab-pane" id="tab7">
+<div class="col-md-12">
+<div class="carousel-wrap">
+<div class="owl-carousel owl-seven">
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.kannada-praadhikaara.gov.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/kannada_abhiruddi_pradikar.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕನ್ನಡ ಅಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://kannadasiri.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/kannada_culure_dept.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕನ್ನಡ ಮತ್ತು ಸಂಸ್ಕೃತಿ ಇಲಾಖೆ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://kannadasahithyaparishattu.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/kannada_sahitya_parishat.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಿಷತ್ತು</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://kanaja.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/kanaja.png" style="width: 50px;height: 50px; margin-top: 16px;">
+<div class="quilcklinks_outer">
+<h2><kan>ಕಣಜ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://ekannada.karnataka.gov.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/kanaja.png" style="width: 50px;height: 50px; margin-top: 16px;">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ-ಕನ್ನಡ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>	
+
+<div role="tabpanel" class="tab-pane" id="tab8">
+<div class="col-md-12">
+<div class="carousel-wrap">
+<div class="owl-carousel owl-eight">
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="#"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/pdf_download.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಪಿ.ಡಿ.ಎಫ್. ಡೌನ್ಲೋಡ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://karnataka.gov.in/frontend/opt1/application_download/Nudi_6.0_setup.exe" download="nudi_6.0_setup.exe" target="_blank"  title="ನುಡಿ ತಂತ್ರಾಂಶ  "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/nudi.png">
+<div class="quilcklinks_outer">
+<h2><kan>ನುಡಿ ತಂತ್ರಾಂಶ </kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.cdac.in/index.aspx?id=ev_corp_gist_go_translate" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/go_translate_cdac.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಗೊ-ಟ್ರಾನ್ಸಲೇಷನ್(ಸಿಡ್ಯಾಕ್)</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://karnataka.gov.in/frontend/opt1/application_download/setup_espeak.exe" target="_blank"  download="setup_espeak-1.48.04 .exe" title="ಇ ಸ್ಪೀಕ್"><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/e_speak.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ ಸ್ಪೀಕ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://play.google.com/store/apps/details?id=com.voicenotes.kannada&hl=en" target="_blank"  download="setup_espeak-1.48.04 .exe" title="ಕನ್ನಡ ಧ್ವನಿ ಟಿಪ್ಪಣಿ ಆ್ಯಪ್"><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/kan_voice_notes.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕನ್ನಡ ಧ್ವನಿ ಟಿಪ್ಪಣಿ </kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+
+
+</div>
+
+</div>
+</div>
+</div>	
+
+
+
+<div role="tabpanel" class="tab-pane" id="tab9">
+<div class="col-md-12">
+<div class="carousel-wrap">
+<div class="owl-carousel owl-nine">
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://kslsa.kar.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/all_ayoga.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ಕಾನೂನು ಆಯೋಗ​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.kscpcr.com/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/all_ayoga.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ರಾಜ್ಯ ಮಕ್ಕಳ ಹಕ್ಕುಗಳ ರಕ್ಷಣಾ ಆಯೋಗ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.kscw.kar.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/all_ayoga.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ಮಹಿಳಾ ಆಯೋಗ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://kscdrc.kar.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/all_ayoga.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ರಾಜ್ಯ ಗ್ರಾಹಕ ವ್ಯಾಜ್ಯ ವಿಲೇವಾರಿ ಆಯೋಗ​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.kshrc.kar.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/human_rights_kar.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ರಾಜ್ಯಮಾನವ ಹಕ್ಕುಗಳ ಆಯೋಗ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.karnataka.gov.in/kerc/Pages/home.aspx" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/all_ayoga.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ವಿದ್ಯುಚ್ಛಕ್ತಿ ಆಯೋಗ​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.karnataka.gov.in/jnanaayoga/Pages/home.aspx" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/all_ayoga.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ಜ್ಞಾನ ಆಯೋಗ</kan>​</h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://karsec.gov.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/all_ayoga.png">
+<div class="quilcklinks_outer">
+<h2> <kan>ರಾಜ್ಯ ಚುನಾವಣಾ ಆಯೋಗ​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+
+
+</div>
+
+</div>
+
+
+
+</div>
+</div>	
+
+
+<div role="tabpanel" class="tab-pane" id="tab10">
+<div class="col-md-12">
+<div class="carousel-wrap">
+<div class="owl-carousel owl-ten">
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.sci.gov.in/" target="_blank" title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/supreeem_court.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಸುಪ್ರೀಂ ಕೋರ್ಟ್​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://karnatakajudiciary.kar.nic.in/"  target="_blank" title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/high_1_court.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಹೈ ಕೋರ್ಟ್</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://districts.ecourts.gov.in/karnataka" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/district_courts.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಜಿಲ್ಲಾ ನ್ಯಾಯಾಲಯಗಳು</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://www.cgatnew.gov.in/catweb/Delhi/Delhi.php" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/cat.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕೇಂದ್ರ ಆಡಳಿತ ನ್ಯಾಯ ಮಂಡಳಿ  (CAT)</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card item cards__cardbox">
+<div >
+<a href="https://kat.karnataka.gov.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/dpar.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಕರ್ನಾಟಕ ರಾಜ್ಯ ಆಡಳಿತ ನ್ಯಾಯ ಮಂಡಳಿ (KAT)​</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>	
+
+<div role="tabpanel" class="tab-pane " id="tab20">       
+<div class="col-md-12">
+<div class="carousel-wrap">
+<div class="owl-carousel owl-twenty">
+<div class="item cards__card">
+<div class="ssk" style="display: inline-block;text-align: center;">
+<a href="https://www.sakala.kar.nic.in/" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/icon_sakala.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಸಕಾಲ</kan></h2>
+
+</div>
+</a>
+</div>
+</div>
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://sevasindhu.karnataka.gov.in" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/SEVA-SINDHU.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಸೇವಾಸಿಂಧು</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://erajyapatra.karnataka.gov.in" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/E-RAJYA-PATRA.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ ರಾಜ್ಯಪತ್ರ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://rtionline.karnataka.gov.in" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/ONLINE-RTI.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಮಾಹಿತಿ ಹಕ್ಕು</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://mahitikanaja.karnataka.gov.in/Department" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/MAHITHI-KANAJA.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಮಾಹಿತಿ ಕಣಜ</kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+
+
+
+<div class="item cards__card">
+<div class="ssk">
+<a href="https://www.espandana.karnataka.gov.in/cms/portal/login.jsf" target="_blank"  title="ಇ ಜಾಲತಾಣವು ಪ್ರತ್ತೇಕ ಪರದೆ ಮೇಲೆ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ "><img alt="quicklink3" src="https://mybmtc.karnataka.gov.in/includes/carousel_icons/icon_espandana.png">
+<div class="quilcklinks_outer">
+<h2><kan>ಇ ಜನಸ್ಪಂದನ  </kan></h2>
+<p></p>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>	
+</div>
+</div>
+
+
+
+ <!-- END FOOTER -->
+      <!-- Latest jQuery -->
+	  
+	  <script src="https://karnataka.gov.in/frontend/assets/map/jquery_3_3_1.js"></script>
+	  <script src="https://karnataka.gov.in/frontend/assets/map/bootstrap.js"></script>
+	  <script src="https://karnataka.gov.in/frontend/assets/map/main.js"></script>
+	  
+	  <script src="https://karnataka.gov.in/frontend/assets/js/jquery-1.12.4.min.js"></script>
+	  
+      <script src="https://karnataka.gov.in/frontend/assets/js/jquery-1.12.4.min.js"></script>
+      <!-- Latest compiled and minified Bootstrap -->
+      <script src="https://karnataka.gov.in/frontend/assets/bootstrap/js/bootstrap.min.js"></script>
+      <!-- modernizer JS -->
+      <script src="https://karnataka.gov.in/frontend/assets/js/modernizr-2.8.3.min.js"></script>
+      <!-- meanmenu min js  -->
+      <script src="https://karnataka.gov.in/frontend/assets/js/jquery.meanmenu.min.js"></script>
+      <!-- Sticky JS -->
+      <script src="https://karnataka.gov.in/frontend/assets/js/jquery.sticky.js"></script>
+      <!-- cd-headline js -->
+
+      <!-- form-contact js -->
+     
+	  <script src="https://karnataka.gov.in/frontend/opt1/js/script.js"></script>
+	  <script src="https://karnataka.gov.in/frontend/opt1/js/custom.js"></script>
+	   <script src="https://karnataka.gov.in/frontend/opt1/js/owl.carousel.min.js"></script>
+	  <script src="https://karnataka.gov.in/frontend/opt1/js/fancy/jquery.fancybox.pack.js"></script>
+	  
+      <!-- map js -->
+     <!--  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script> -->
+      <!-- Main Script -->
+	  
+	   <script src="https://karnataka.gov.in/frontend/assets/js/theme.js"></script>
+      <script src="https://karnataka.gov.in/frontend/assets/js/main.js"></script>
+     <script src="https://karnataka.gov.in/frontend/assets/js/slick.js"></script>
+     
+     <script src="https://karnataka.gov.in/frontend/assets/js/readMoreJS.js"></script>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166766889-1"></script>
+<!-- bottom carousel end-->
+<!-- bottom nav bar-->
+<div class="glass">
+<h6 style="color:white;">&nbsp;&nbsp;Copyright All Rights Reserved &#169; 2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#">Copyright Policy</a> &nbsp;&nbsp;
+  <a href="#">Contact Us</i></a> &nbsp;&nbsp;
+  <a href="#">Help</i></a> &nbsp;&nbsp;
+  <a href="#">Useful Links</i></a> &nbsp;&nbsp;&nbsp;&nbsp;Number Of Visitors<!-- Start of WebFreeCounter Code -->
+<a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=gemaanda&nd=6&style=7" border="0" alt="web counter"></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Follow us On
+<a href="https://www.facebook.com/csje.ati" class="fa fa-facebook" style="color:#3b5998 ;"></a>&nbsp;
+<a href="#" class="fa fa-twitter" style="color:#00acee;"></a>&nbsp;&nbsp;
+<a href="#" class="fa fa-linkedin" style="color:#0e76a8;"></a>&nbsp;&nbsp;
+<a href="#" class="fa fa-youtube"style="color:#c4302b;"></a>&nbsp;&nbsp;
+<a href="#" class="fa fa-instagram"style="color:#3f729b;"></a>
+</h6>	
+</div>
+</body>
+</html>
